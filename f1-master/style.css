@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.bd-radius-50 {
+    border-radius: 50px;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+/* aside styling start */
+.aside {
+    position: fixed;
+    width: 333px;
+    height: 95vh;
+    left: 21px;
+    top: 19px;
+    background: #262626;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}   
+.profile-pic img {
+    width: 222px;
+    height: 222px;
+    border-radius: 50%;
+}
+.tony-stark {
+    margin-top: 15;
+    color: #fff;
+    font-weight: 700;
+}
+.Billionaire {
+    margin-top: 5px;
+    color: #fff;
+    opacity: 50%;
+    font-size: 14px;
+    font-weight: 400;
+}
+.aside-btns {
+    width: 275px;
+    margin-top: 20px;
+}
+.btn {
+    margin: 15px 0;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    opacity: 50%;
+    font-weight: 400;
+}
+/* aside styling end */
+.main {
+    height: 95vh;
+    position: absolute;
+    width: 945px;
+    left: 377px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.main-top-content {
+    height: 55%;
+    width: 100%;
+    background: #262626;
+    padding: 15px 20px;
+}
+.head {
+    color: #fff;
+}
+.head h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.main-left-col-content {
+    display: flex;
+}
+.main-top-text p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    padding-right: 10px;
+    color: #fff;
+    opacity: 50%;
+}
+.main-top-text a {
+    color: #fff;
+    opacity: 50%;
+}
+.main-top-img img {
+    width: 500px;
+    height: 250px;
+    border-radius: 30px;
+}
+.main-bottom-content {
+    height: 43%;
+    width: 100%;
+    background: #262626;
+    color: #fff;
+    padding: 15px 20px;
+}
+.main-bottom-content h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.table {
+    margin-top: 15px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    opacity: 50%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: start;
+    border-radius: 30px;
+}
+th {
+    padding: 5px;
+    padding-left: 10px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    text-align: start;
+}
+td {
+    border-right: 1px solid #fff;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+td:last-child, th:last-child {
+    border-right: none;
+}
+
+.text-align-center {
+    text-align: center;
+}
